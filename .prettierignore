@@ -1,0 +1,7 @@
+bootstrap/**/*
+node_modules/**/*
+patches/**/*
+resources/views/vendor/notifications/**/*
+storage/**/*
+vendor/**/*
+_ide_helper.php

@@ -1,0 +1,23 @@
+{
+    "overrides": [
+        {
+            "files": ["*.php"],
+            "options": {
+                "parser": "php"
+            }
+        },
+        {
+            "files": ["*.blade.php"],
+            "options": {
+                "parser": "blade"
+            }
+        }
+    ],
+    "phpVersion": "8.3",
+    "plugins": ["@prettier/plugin-php", "@shufo/prettier-plugin-blade", "prettier-plugin-tailwindcss"],
+    "printWidth": 120,
+    "quoteProps": "consistent",
+    "singleAttributePerLine": true,
+    "singleQuote": true,
+    "sortTailwindcssClasses": true
+}
